@@ -86,7 +86,7 @@ To initialize your node using a snapshot, please download the latest snapshot fr
 - [Goerli Archive Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 Note: The snapshots are updated every 4 hours. 
-Once you download and decompress the tar file, copy contents of the snapshot `/data` directory to `$HOME/data/base:/data`
+Once you download and decompress the tar file, copy contents of the snapshot `/data` directory to your desired geth data directory
 
 ### Syncing
 
