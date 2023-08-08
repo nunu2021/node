@@ -77,6 +77,17 @@ services:
       - $HOME/data/base:/data
 ```
 
+### Snapshots
+
+To initialize your node using a snapshot, please download the latest snapshot from either of these links: 
+- [Mainnet Full Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Mainnet Archive Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Goerli Full Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Goerli Archive Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+Note: The snapshots are updated every 4 hours. 
+Once you download and decompress the snapshot, move the `/data` directory to `$HOME/data/base:/data`
+
 ### Syncing
 
 Sync speed depends on your L1 node, as the majority of the chain is derived from data submitted to the L1. You can check your syncing status using the `optimism_syncStatus` RPC on the `op-node` container. Example:
