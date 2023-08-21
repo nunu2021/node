@@ -79,11 +79,35 @@ services:
 
 ### Snapshots
 
-To initialize your node using a snapshot, please download the latest snapshot from either of these links: 
-- [Mainnet Full Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- [Mainnet Archive Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- [Goerli Full Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- [Goerli Archive Node](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+To initialize your node using a snapshot, please follow steps: 
+
+#### Mainnet
+Download the corresponding file and copy its contents:
+
+- [Mainnet Full Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-full)
+- [Mainnet Archive Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-archive)
+
+Download the snapshot tar.gz file from 
+
+```
+https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
+```
+
+
+
+#### Goerli
+
+Download the corresponding file and copy its contents:
+
+- [Goerli Full Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-full)
+- [Goerli Archive Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-archive)
+
+Download the snapshot tar.gz file from 
+
+```
+https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
+```
+
 
 Note: The snapshots are updated every 4 hours. 
 Once you download and decompress the tar file, copy contents of the snapshot `/data` directory to your desired geth data directory
