@@ -82,12 +82,12 @@ services:
 To initialize your node using a snapshot, please follow steps: 
 
 #### Mainnet
-Download the corresponding file and copy its contents:
+1. Download the corresponding file and copy its contents:
 
 - [Mainnet Full Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-full)
 - [Mainnet Archive Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-archive)
 
-Download the snapshot tar.gz file from 
+2. Paste the content as shown and download the snapshot tar.gz file from the following link
 
 ```
 https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
@@ -97,19 +97,19 @@ https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/<COPIED CONTENT
 
 #### Goerli
 
-Download the corresponding file and copy its contents:
+1. Download the corresponding file and copy its contents:
 
 - [Goerli Full Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-full)
 - [Goerli Archive Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-archive)
 
-Download the snapshot tar.gz file from 
+2. Paste the content as shown and download the snapshot tar.gz file from the following link
 
 ```
 https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
 ```
 
 
-Note: The snapshots are updated every 4 hours. 
+Note: The snapshots are updated around every 24 hours. 
 Once you download and decompress the tar file, copy contents of the snapshot `/data` directory to your desired geth data directory
 
 ### Syncing
