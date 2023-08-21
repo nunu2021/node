@@ -109,8 +109,11 @@ https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
 ```
 
 
+
 Note: The snapshots are updated around every 24 hours. 
 Once you download and decompress the tar file, copy contents of the snapshot `/data` directory to your desired geth data directory
+
+
 
 ### Syncing
 
