@@ -79,23 +79,31 @@ services:
 
 ### Snapshots
 
-To initialize your node using a snapshot, please follow steps: 
+To initialize your node using a snapshot, download the corresponding snapshot tar file:
 
-#### Mainnet
-1. Download the corresponding file and copy its contents:
-
-- [Mainnet Full Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-full)
-- [Mainnet Archive Node Latest](https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/latest-archive)
-
-2. Paste the content as shown and download the snapshot tar.gz file from the following link
+#### Mainnet Full Node
 
 ```
-https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
+wget https://base-mainnet-full-snapshots.s3.us-east-1.amazonaws.com/$(curl https://base-mainnet-full-snapshots.s3.us-east-1.amazonaws.com/latest)
 ```
 
+#### Mainnet Archive Node
 
+```
+wget https://base-mainnet-archive-snapshots.s3.us-east-1.amazonaws.com/$(curl https://base-mainnet-archive-snapshots.s3.us-east-1.amazonaws.com/latest)
+```
 
-#### Goerli
+#### Goerli Full Node
+
+```
+wget https://base-goerli-full-snapshots.s3.us-east-1.amazonaws.com/$(curl https://base-goerli-full-snapshots.s3.us-east-1.amazonaws.com/latest)
+```
+
+#### Goerli Archive Node
+
+```
+wget https://base-goerli-archive-snapshots.s3.us-east-1.amazonaws.com/$(curl https://base-goerli-archive-snapshots.s3.us-east-1.amazonaws.com/latest)
+```
 
 1. Download the corresponding file and copy its contents:
 
@@ -107,7 +115,6 @@ https://base-public-snapshots-mainnet.s3.us-east-1.amazonaws.com/<COPIED CONTENT
 ```
 https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
 ```
-
 
 
 Note: The snapshots are updated around every 24 hours. 
