@@ -105,16 +105,6 @@ wget https://base-goerli-full-snapshots.s3.us-east-1.amazonaws.com/$(curl https:
 wget https://base-goerli-archive-snapshots.s3.us-east-1.amazonaws.com/$(curl https://base-goerli-archive-snapshots.s3.us-east-1.amazonaws.com/latest)
 ```
 
-1. Download the corresponding file and copy its contents:
-
-- [Goerli Full Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-full)
-- [Goerli Archive Node Latest](https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/latest-archive)
-
-2. Paste the content as shown and download the snapshot tar.gz file from the following link
-
-```
-https://base-public-snapshots-goerli.s3.us-east-1.amazonaws.com/<COPIED CONTENT>
-```
 
 
 Note: The snapshots are updated around every 24 hours. 
